@@ -3,13 +3,13 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Tunnel Rush</title>
-    <link rel="shortcut icon" href="style/favicon.ico">
-    <link rel="stylesheet" href="style/style.css">
-	<script src="/adinLoader.js"></script>
-	<script src="UnityLoader.js"></script>
-    <script src="UnityProgress.js"></script>
+    <link rel="shortcut icon" href="games/tunnel-rush/style/favicon.ico">
+    <link rel="stylesheet" href="games/tunnel-rush/style/style.css">
+	<script src="games/tunnel-rush/adinLoader.js"></script>
+	<script src="games/tunnel-rush/UnityLoader.js"></script>
+    <script src="games/tunnel-rush/UnityProgress.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "games/tunnel-rush/build.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
   </head>
   <body>
